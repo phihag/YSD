@@ -37,4 +37,6 @@ Point the `_sighelper.py` to the signature decrypter in your `youtube-dl` copy:
 	
 #Wrapper
 
-`_sig.php` is a wrapper for `_sighelper.py`. Its content is pretty much self-explanatory.
+`_sig.php` is a php wrapper for `_sighelper.py`. Its content is pretty much self-explanatory.
+
+Feel free to submit any other wrapper that might be helpful to others. Thanks.
