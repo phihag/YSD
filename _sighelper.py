@@ -7,6 +7,12 @@ class Downloader(object):
     def __init__(self):
         self.params={}
 
+    def report_warning(self, msg):
+        pass
+		
+    def to_screen(self, msg):
+        pass	
+
 
 class YoutubeInfoExtractor(YoutubeIE):
 
@@ -25,4 +31,4 @@ if __name__ == "__main__":
 
     sig_extractor = YoutubeInfoExtractor(Downloader())
     if sig and vid and url:
-        print sig_extractor._decrypt_signature(sig,vid,url,False)
+        print(sig_extractor._decrypt_signature(sig,vid,url,False))
