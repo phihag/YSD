@@ -33,7 +33,7 @@ $json_response_data = array(
 
 # Python config
 $py_path = "/usr/bin/python";
-$py_sig_decrypter_path = "./_sighelper.py";
+$py_sig_decrypter_path = "./sighelper.py";
 $py_other_args = "2>&1"; # use '2>&1' to print python errors - not advised in production
 
 
